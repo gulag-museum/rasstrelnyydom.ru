@@ -4,7 +4,7 @@
 @font-face {
     font-family: GothaProReg; /* Гарнитура шрифта */
    src: url('../fonts/GothaProReg.eot'); /* IE9 */
-   src: url('http://localhost:8080/fonts/GothaProReg.eot?') format('eot'),  /* IE6-IE8 */
+   src: url('../fonts/GothaProReg.eot?') format('eot'),  /* IE6-IE8 */
    url('../fonts/GothaProReg.woff') format('woff'), /* Современные браузеры */
    url('../fonts/GothaProReg.ttf')  format('truetype'), /* Safari, Android, iOS */ 
    url('../fonts/GothaProReg.svg') format('svg'); /* iOS */ 
@@ -12,7 +12,7 @@
 @font-face {
     font-family: GothaProReg; /* Гарнитура шрифта */
    src: url('../fonts/GothaProBol.eot'); /* IE9 */
-   src: url('http://localhost:8080/fonts/gothaprobol.eot?') format('eot'),  /* IE6-IE8 */
+   src: url('../fonts/gothaprobol.eot?') format('eot'),  /* IE6-IE8 */
    url('../fonts/gothaprobol.woff') format('woff'), /* Современные браузеры */
    url('../fonts/gothaprobol.ttf')  format('truetype'), /* Safari, Android, iOS */ 
    url('../fonts/gothaprobol.svg') format('svg'); /* iOS */ 
@@ -21,7 +21,7 @@
 @font-face {
    font-family: GothaProReg; /* Гарнитура шрифта */
    src: url('../fonts/gothapromed.eot'); /* IE9 */
-   src: url('http://localhost:8080/fonts/gothapromed.eot?') format('eot'),  /* IE6-IE8 */
+   src: url('../fonts/gothapromed.eot?') format('eot'),  /* IE6-IE8 */
    url('../fonts/gothapromed.woff') format('woff'), /* Современные браузеры */
    url('../fonts/gothapromed.ttf')  format('truetype'), /* Safari, Android, iOS */ 
    url('../fonts/gothapromed.svg') format('svg'); /* iOS */ 
