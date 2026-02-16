@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" > <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+
+  <title>Здесь должен быть музей - Николькая, 23</title>
+	
+	<meta name="robots" content="index, follow">
+	
+	<!--[if lte IE 8]><script src="/css/ie/html5shiv.js"></script><![endif]-->
+	<script src="/js/jquery-1.8.2.min.js"></script>	
+	
+	
+		<script src="/js/skel.min.js"></script>
+		<script src="/js/init.js"></script>
+			<noscript>
+			<link rel="stylesheet" href="/css/skel.css" />
+			<link rel="stylesheet" href="/css/style.css" />
+			<link rel="stylesheet" href="/css/style-desktop.css" />
+		</noscript>
+
+<script src="/js/jquery.scrollTo.min.js"></script>
+<script src="/js/jquery.localScroll.min.js"></script>
+<script src="/js/jquery.easing.1.3.js"></script>
+<script src="/js/jquery.scrollorama.js"></script>
+<!--<script src="/js/jquery.scrolldeck.js"></script>-->
+<script src="js/jquery.parallax-1.1.js"></script>
+  
+<script type="text/javascript" id="statsmosru" src="https://stats.mos.ru/counter.js" onLoad="statsMosRuCounter()" defer="defer" async="true">
+  </script>
+  
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$("#bk01").height( $(window).height());
+	
+	$('#help').css('top',$(window).height()-300+'px');
+	
+	$('.spoiler_links').click(function()
+	{
+        $(this).parent().children('div.spoiler_body').toggle('normal');
+        return false;
+    });
+	
+	$(window).resize(function(){
+		//RepositionNav();
+	});	
+	
+	//.parallax(xPosition, adjuster, inertia, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//adjuster - y position to start from
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	if ($(window).width() > 1200) {
+
+	$('#bk01').parallax("50%", 0.3);
+	
+		//$('#bk03').css('background-position:','50% '+$('#bk04').offset().top-100+'px');
+	$('#bk03').parallax("50%", 0.3);
+	$('#bk05').parallax("50%",  0.3);
+	$('#bk07').parallax("50%",   0.3);
+	};
+	
+	$.localScroll();
+	
+	//var deck = new $.scrolldeck({
+//		slides: '.slide1',
+//		buttons: '#nav li a',
+//		easing: 'easeInOutExpo'
+//	});
+//	var deck1 = new $.scrolldeck({
+//		slides: '.slide1',
+//		buttons: '#nav-button',
+//		easing: 'easeInOutExpo'
+//	});
+//		var deck2 = new $.scrolldeck({
+//		slides: '.slide1',
+//		buttons: '#nav-button2',
+//		easing: 'easeInOutExpo'
+//	});
+
+})
+</script>
+ 
+		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
+
+	
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]--> 
+	
+	<!--[if lt IE 7 ]>
+    <script src="theme/Innovation/assets/js/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+  <![endif]-->
+
+	<meta name="description" content="В здании на Никольской, 23, размещалась Военная коллегия Верховного Суда СССР. Сегодня в этом доме должен быть музей истории репрессий." />
+<meta name="keywords" content="Никольская 23, За музей, Военная коллегия Верховного Суда СССР, Расстрельный дом" />
+<link rel="canonical" href="http://zamuzey.ru/" />
+	
+</head> 	
+	<div class="wrapper clearfix">
+		<!-- page content -->
+		<article>
+			<section>
+				
+				<!-- title and content -->
+				
+					<ul id="nav" class="navmob">
+		<li><a href="#bk02" title="Декларация о музеефикации">Декларация</a></li>
+	    <li><a href="#bk04" title="История здания">История</a></li>
+	    <li><a href="#bk06" title="История музеефикации">Музеефикация</a></li>
+	    <li><a  href="#bk08" title="Публикации в прессе">Публикации</a></li>
+	    <li><a href="#bk09" title="Как помочь">Как помочь</a></li>
+	</ul>
+		<ul id="nav" class="navmobarrow">
+	    <li style="left: 1em;" onclick="";>
+<img src="css/images/ArrowDown.svg"  " height="10em" >
+<ul   class="navmobarrow" style="margin-top: 0.1em; margin-left: -0.5em;"><br>
+		<li style="margin-top: 1em;"><a href="#bk02" title="Декларация о музеефикации">Декларация</a></li><br>
+	    <li style="margin-top: 1em;"><a href="#bk04" title="История здания">История</a></li><br>
+	    <li style="margin-top: 1em;"><a href="#bk06" title="История музеефикации">Музеефикация</a></li><br>
+	    <li style="margin-top: 1em;"><a  href="#bk08" title="Публикации в прессе">Публикации</a></li><br>
+	    <li style="margin-top: 1em;"><a href="#bk09" title="Как помочь">Как помочь</a></li>	</ul><br>
+
+</li>
+		
+	</ul>
+    <!--Топовая картика-->
+	<div id="bk01" class="slide">
+		<div class="story"><div class="bg" id="help">
+	    	<h1 style="text-align: center; color: white; font-family: GothaProreg, 'Open Sans', sans-serif;">ЗДЕСЬ ДОЛЖЕН БЫТЬ</h1>
+		<h1 style="text-align: center; color: white; font-weight: bold;">МУЗЕЙ.</h1>
+		<p style="text-align: center;">
+<a id="nav-button" href="#bk09"><img src="css/images/doitgreen.svg"  height="55em" ></a></p></div>
+	    </div> <!--.story-->
+	</div> <!--#bk01-->
+	
+    <!--Зеленый блок-->
+	<div id="bk02" class="slide">
+		<div class="story">
+        <br><br><br><br>
+	    <h2>ДЕКЛАРАЦИЯ О МУЗЕЕФИКАЦИИ</h2>
+		<h3 style="color: #231f20;">В здании на Никольской, 23, в 1930-1940-х гг. размещалась Военная коллегия Верховного Суда СССР — главное звено механизма сталинских репрессий. Сегодня в этом доме должен быть музей истории репрессий.</h3>
+		<h4 style="display: block; color: #231f20;">Открытие увеселительных заведений или офисов в месте, где были приговорены к смерти десятки тысяч людей, — это безразличие не только к прошлому, но и к будущему нашего народа.<br />
+			Создание же в этом месте музея памяти жертв репрессий станет важной вехой в сохранении национальной исторической памяти россиян. Музей в «Расстрельном доме» необходим для научного осмысления, изучения и представления темы сталинских репрессий широкой публике на государственном уровне.</h4>
+		<br />
+		<h4 style="display: block; color: #231f20;">Благодаря созданию музея в «Расстрельном доме» общественное сознание сможет вобрать в себя целостное и детальное осмысление страшных событий советской эпохи и соответствующим образом измениться. Музей в «Расстрельном доме» будет примером, четко указывающим на неприемлемость решения проблем путем уничтожения людей по социальным или национальным признакам.</h4>
+		<br />
+		<h4 style="display: block; color: #231f20;">Историю нельзя замалчивать — ее нужно сохранять и передавать из поколения в поколение, чтобы в будущем не допустить повторения страшных ошибок прошлого.</h4>
+<br><br><br>
+	    </div> <!--.story-->
+	    
+	</div> <!--#bk02-->
+
+     <!--Картинка 2-->
+	<div id="bk03" class="slide">
+	</div> <!--#bk03-->
+
+    <!--Желтый блок-->
+	<div id="bk04" class="slide">
+		<div class="story">
+        <br><br><br><br>
+	    <h2>ИСТОРИЯ ЗДАНИЯ</h2>
+	    
+		<div class="row">
+			<div class="6u">
+				<article class="box style2">
+					<div class="pic01">&nbsp;</div>
+				</article>
+			</div>
+			<div class="6u">
+				<article class="box style2">
+					<div class="flag1">&nbsp;</div>
+					<br />
+					<h2 style="color: #7ac19f; text-align: left;">Кружок Станкевича</h2>
+					<p>Дом 23 по улице Никольской имеет давнюю историю — нижние этажи включают фрагменты палат князей Хованских XVII века. В XIX веке здание принадлежало Московской ремесленной управе, в одной из наемных квартир в 1835 году жил Николай Владимирович Станкевич — основатель так называемого «кружка Станкевича», литературного и философского объединения, куда входили 
+В. Белинский, Т. Грановский, К. Аксаков, 
+А. Кольцов, М. Бакунин. <br /><br />
+						Но наибольшую известность это здание получило как «Расстрельный дом» — здесь 
+в годы Большого террора размещалась Военная коллегия Верховного суда СССР, возглавляемая В.В. Ульрихом. </p>
+<div> 
+<a href="/" class="spoiler_links" id="splinks" ><img src="css/images/more.svg" ></a>
+<div class="spoiler_body">
+Военная коллегия переехала со Спиридоньевки в здание на Никольской улице (тогда улице 25 Октября) в начале 1930-х годов и размещалась там до конца 1940-х. Возможно, при выборе места учитывалась и близость Лубянки — во всяком случае, рассказы о подземных ходах между этими зданиями фигурируют во множестве мемуаров.
+</div>
+</div>
+				</article>
+			</div>
+		</div> <!--row-->
+		
+		<div class="row">
+			<div class="6u">
+				<article class="box style2">
+					<div class="flag2">&nbsp;</div>
+					<br />
+					<h2 style="color: #7ac19f; text-align: left;">Центральное звено репрессий</h2>
+					<p>По собственным отчетам, с 1934 по 1955 год Военной коллегией были осуждены 47 549 человек. За период с 1 октября 1936 года по 30 ноября 1938  к высшей мере наказания были приговорены 31 456 человек 
+(в том числе 7408 жителей Москвы), к лишению свободы — 6857 человек.<br><br>
+Военная коллегия в эти годы была центральным звеном механизма репрессий. Смертные приговоры приводились в исполнение немедленно. Родственники чаще всего не знали о судьбе своих близких, им сообщалось: «десять лет дальних лагерей без права переписки».<br><br>
+По приговорам Военной коллегии были расстреляны известные артисты, ученые, писатели, военные, священнослужители, руководители промышленности, 
+а также руководящие работники партии.</p>
+<div> 
+<a href="/" class="spoiler_links" id="splinks" ><img src="css/images/more.svg"></a>
+<div class="spoiler_body">
+Среди приговоренных Военной коллегией к расстрелу: писатели И.Э.Бабель,И.И.Катаев, Б.А.Пильняк, С.М.Третьяков, Б.Ясенский, режиссер В.Э.Мейерхольд, маршал А.И.Егоров, маршал авиации С.А.Худяков, крупнейшие ученые Н.Д.Кондратьев, Е.Д.Поливанов и Р.Л.Самойлович, члены политбюро Н.И.Бухарин, Г.Е.Зиновьев, Л.Б.Каменев, С.В.Косиор, А.И.Рыков, В.Я.Чубарь, полный состав правительства Монголии, 25 союзных наркомов и 19 республиканских; 13 командармов, 43 комкора,85 комбригов, свыше 100 профессоров, более 300 директоров ведущих предприятий… Здесь были приговорены к расстрелу родители М.Плисецкой, О.Аросевой, А.Збруева и многих других наших знаменитых соотечественников.
+</div>
+</div>
+				</article>
+			</div>
+			<div class="6u">
+				<article class="box style2">
+					<div class="pic02">&nbsp;</div>
+				</article>
+			</div>
+		</div><!--row-->
+		<div class="row">
+			<div class="6u">
+				<article class="box style2">
+					<div class="pic03">&nbsp;</div>
+				</article>
+			</div>
+			<div class="6u">
+				<article class="box style2">
+					<h2 style="color: #7ac19f; text-align: left;">Видимость законности</h2>
+					<p>Военная коллегия придавала репрессиям видимость законности — хотя почти все приговоры выносились ею «в порядке закона от 1 декабря 1934 года», то есть без участия защиты и без возможности обжалования. «Рассмотрение» дела занимало не более 10-15 минут. С юридической точки зрения, эти приговоры мало чем отличались от заочных решений «троек» и Особого совещания. <br><br>В то же время Военная коллегия была главным 
+исполнителем решений Политбюро ЦК ВКП(б) и НКВД. В годы массового террора большинство приговоров Военной коллегии до рассмотрения дел утверждалось Сталиным и приближенными членами Политбюро по спискам, составленным НКВД.  </p>
+<div> 
+<a href="/" class="spoiler_links" id="splinks" ><img src="css/images/more.svg"></a>
+<div class="spoiler_body">
+Фактически Военная коллегия не выносила приговор, а оформляла решение высшего руководства страны. И дальше уже на бланках с адресом «ул. 25 Октября, д.23» за подписью Ульриха оформлялось предписание на расстрел. По крайней мере, до сентября 1937 года приговоры приводил в исполнение комендант Военной коллегии; на таком же бланке он писал и направление в крематорий на сожжение трупов.
+</div>
+</div>
+				</article>
+			</div>
+		</div><!--row-->
+		<div class="row">
+			<div class="6u">
+				<article class="box style2">
+					<h2 style="color: #7ac19f; text-align: left;">Отставка Ульриха</h2>
+					<p>24 августа 1948 года Центральный комитет ВКП(б) принял постановление «О состоянии дел в Верховном Суде СССР», в котором указал, что Верховный Суд СССР, призванный осуществлять надзор за судебной деятельностью судебных органов СССР и союзных республик, в предыдущий период времени неудовлетворительно выполнял эту задачу, и этим допускал серьезные ошибки и нарушения законов. В результате проверки «было установлено, что заместитель Председателя Верховного Суда СССР 
+т. Ульрих утратил чувство партийной ответственности за порученное дело, допустил серьезные политические ошибки в работе Военной коллегии и совершил проступки, порочащие его как коммуниста и председателя Верховной коллегии». За это, а также за слишком раздутые штаты, бюрократизацию, достигшую невероятных размеров, и одновременно за слабый учет и контроль, В.В.Ульрих был снят с занимаемой должности.</p>
+				</article>
+			</div>
+			<div class="6u">
+				<article class="box style2">
+					<div class="pic04">&nbsp;</div>
+				</article>
+			</div>
+		</div><!--row-->
+		<div class="row">
+			<div class="6u">
+				<article class="box style2">
+					<div class="pic05">&nbsp;</div>
+				</article>
+			</div>
+			<div class="6u">
+				<article class="box style2">
+					<div class="flag3">&nbsp;</div>
+					<br />
+					<h2 style="color: #7ac19f; text-align: left;">Бутики в &laquo;Расстрельном доме&raquo;</h2>
+					<p>В марте 1950 года Военная коллегия была передислоцирована в дом №13 по улице Воровского. Здание на Никольской, 23 было передано Московскому городскому военкомату, после чего перешло в частную собственность. <br><br>
+Сменив нескольких владельцев, в 2004 году «Расстрельный дом» оказался в ведении одной из дочерних структур Банка Москвы. Едва вступив во владение, она предложила снести историческое здание и построить на его месте развлекательный комплекс. Подвалы планировалось заменить подземной парковкой; двор-колодец, где грузили в «воронки» осужденных, — зимним садом.
+Здание удалось отстоять: его включили в реестр памятников и взяли под охрану. Однако за это время дом был передан неизвестному частному инвестору. <br><br>В настоящее время здание находится в аварийном состоянии и требует срочной реставрации. </p>
+				</article>
+			</div>
+		</div><!--row-->
+        <br><br><br>
+	    </div> <!--.story-->
+	</div> <!--#third-->
+	
+	<!--Картинка 3-->
+	<div id="bk05" class="slide">
+		<div class="story">
+	    </div> <!--.story-->
+	</div> <!--#bk05-->
+
+	<!--Оранжевый блок-->	
+	<div id="bk06" class="slide">
+		<div class="story">
+<br><br><br>
+<h2>ИСТОРИЯ МУЗЕЕФИКАЦИИ</h2>
+		<h4 style="display: block; color: #231f20; margin: 0 0 0 0;">С конца 80-х годов за музеефикацию «Расстрельного дома» выступают многочисленные общественные организации, общественные и политические деятели, деятели культуры и искусства. 
+Неоднократно проводились круглые столы, заседания рабочих групп, общественные акции 
+и пикеты, был организован сбор подписей.</h4>
+<br />
+		<h4 style="display: block; color: #231f20; margin: 0 0 0 0;">В 2012 году бывшее здание Военной коллегии Верховного суда СССР было включено в проект создания музейно-мемориальной инфраструктуры Москвы, объединяющей  в  единую сеть объекты, — музеи и экспозиционно-выставочные центры, памятники и информационных стенды — 
+связанные с темой сталинских репрессий.</h4>
+		<br />
+		<h4 style="display: block; color: #231f20;">Проект музейно-мемориальной инфраструктуры Москвы был разработан Государственным музеем истории ГУЛАГа совместно с Департаментом культуры города Москвы и согласован 
+с Администрацией Президента Российской Федерации, Советом при Президенте Российской 
+Федерации по развитию гражданского общества и правам человека, а также с Постоянной 
+межведомственной комиссией Правительства Москвы по восстановлению прав 
+реабилитированных жертв политических репрессий.</h4>
+		<br />
+		<h4 style="display: block; color: #231f20;">Для реставрации и музеефикации «Расстрельного дома» и создания в нем государственного музея истории репрессий необходимо выкупить здание бывшей Военной коллегии в казну города Москвы. Для воплощения этого проекта в жизнь необходимо постоянное, непрерывное внимание общества и участие каждого из нас.</h4>
+		<br />
+		<h3 style="display: block;  color: #231f20;">Каждому из нас достаточно отправить письмо в адрес 
+мэра Москвы С.С. Собянина — это не займет много времени.</h3><br />
+		<p style="text-align: center;"><a id="nav-button2" href="#bk09"><img src="css/images/doitwhite.svg"  height="55em" ></a></p>
+<br><br>
+	    </div> <!--.story-->
+	</div> <!--#bk06-->
+
+    <!--Картинка 4-->
+	<div id="bk07" class="slide">
+		<div class="story">
+	    </div> <!--.story-->
+	</div> <!--#bk07-->
+
+    <!--Фиолетовый блок-->
+	<div id="bk08" class="slide">
+		<div class="story">
+<br><br><br>
+<h2 style="color: #ffffff;">ПУБЛИКАЦИИ В СМИ И ССЫЛКИ</h2>
+<h2 style="color: #ffffff; text-align: left;">2018</h2>
+<p><a href="http://hraniteli-nasledia.com/articles/zhivaya-istoriya/rasstrelnyy-butik-na-nikolskoy/?back_url_admin=%2Fbitrix%2Fadmin%2Fiblock_list_admin.php%3FIBLOCK_ID%3D1&type=articles&lang=ru&find_section_section=-1"   target="_blank">&bull;  Расстрельный бутик на Никольской (2 июля)</a></p> 
+<p><a href="https://www.kommersant.ru/doc/3656607"   target="_blank">&bull;  Коммерсант. Расстрельный бутик на Никольской (2 июля)</a></p> 
+<p><a href="https://www.novayagazeta.ru/articles/2018/07/19/77223-shanel-37?utm_source=novaya&utm_medium=fb&utm_campaign=regular"   target="_blank">&bull;  Шанель № 37 (19 июля)</a></p> 
+<br>
+<h2 style="color: #ffffff; text-align: left;">2017</h2>
+<p><a href="https://www.novayagazeta.ru/news/2017/11/09/136867-muzeyschiki-iz-assotsiatsii-muzeev-pamyati-vozlozhili-tsvety-k-rasstrelnomu-domu-na-nikolskoy"   target="_blank">&bull;  Музейщики из Ассоциации Музеев памяти возложили цветы к «расстрельному дому» на Никольской (9 ноября)</a></p> 
+<p><a href="https://takiedela.ru/2017/10/ya-budu-tam-poka-zhiv/"  target="_blank">&bull;  «Я буду там, пока жив» (октябрь)</a></p> 
+<p><a href="https://tvrain.ru/teleshow/vechernee_shou/vinnyj_pogrebok-445200/"  target="_blank">&bull;  Винный погребок там, где убивали на месте: в «расстрельном доме» на Никольской открывают бутик (19 сентября)</a></p> 
+<p><a href="https://www.kommersant.ru/doc/3410422?from=four_strana"  target="_blank">&bull;  Именно сейчас важно рассказать эту историю полностью (15 сентября)</a></p> 
+<p><a href="https://www.novayagazeta.ru/articles/2017/09/10/73780-tantsploschadka-v-osventsime"  target="_blank">&bull;  Танцплощадка в Освенциме (11 сентября)</a></p> 
+<br>
+<h2 style="color: #ffffff; text-align: left;">2016</h2>
+<p><a href="http://www.vesti.ru/doc.html?id=2806291&cid=7"  target="_blank">&bull;  В «расстрельном доме» НКВД на Никольской может появиться торговый комплекс (4 октября)</a></p> 
+<p><a href="http://www.rbc.ru/business/20/09/2016/57dab9159a7947ed7d7b0f93"  target="_blank">&bull;  «Расстрельный» дом на Никольской станет премиальным универмагом (20 сентября)</a></p> 
+<br>
+<h2 style="color: #ffffff; text-align: left;">2015</h2>
+<p><a href="http://www.interfax.ru/moscow/452326"  target="_blank">&bull;  «Расстрельный дом» в центре Москвы отреставрируют (8 июля)</a></p> 
+<br>		
+<h2 style="color: #ffffff; text-align: left;">2014</h2>
+		<p><a href="http://www.vm.ru/news/2014/03/11/rasstrelnij-dom-vikupayut-dlya-muzeya-istorii-gulaga-239094.html"  target="_blank">&bull;  «Расстрельный дом» выкупают для музея истории ГУЛАГа (11 марта)</a></p>
+<p><a href="https://www.novayagazeta.ru/articles/2014/12/13/62343-sudnyy-dom"  target="_blank">&bull;  Судный дом (19 декабря)</a></p>  
+        <br>
+		<h2 style="color: #ffffff; text-align: left;">2013</h2>
+		<p><a href="http://www.novayagazeta.ru/society/59710.html"  target="_blank">&bull;  Расстрельный дом. Никольская, 23 (28 августа)</a></p>
+		<p><a href="http://www.vesti.ru/videos?vid=533102"  target="_blank">&bull;  Расстрельный дом могут сделать музеем (28 августа)</a></p>
+		<p><a href="http://riarealty.ru/news/20130828/401216852.html"  target="_blank">&bull;  Создание музея в «Расстрельном доме» в Москве может обойтись в 1,2 млрд руб – чиновник (28 августа)</a></p>
+		<p><a href="http://www.novayagazeta.ru/news/91240.html"  target="_blank">&bull;  Обращение общества «Мемориал» к и.о. мэра Москвы Сергею Собянину (27 августа)</a></p>
+		<p><a href="http://www.m24.ru/articles/24411"  target="_blank">&bull;  Дом с привидениями: реставрация «Расстрельного дома» (27 августа)</a></p>
+		<p><a href="http://riarealty.ru/news/20130827/401209464.html"  target="_blank">&bull;  Реставрация «Расстрельного дома» в Москве может стоить 800 млн руб (27 августа)</a></p>
+		<p><a href="http://www.diletant.ru/news/19543596/?sphrase_id=685574"  target="_blank">&bull;  В «Расстрельном доме» в Москве может появиться музей памяти жертв сталинских репрессий (27 августа)</a></p>
+        <br>
+		<h2 style="color: #ffffff; text-align: left;">2012</h2>
+		<p><a href="http://www.svoboda.org/content/article/24692420.html"  target="_blank">&bull;  «Расстрельный дом» как память о гостерроре (30 августа)</a></p>
+		<p><a href="http://bg.ru/city/rasstrelnyy_dom-10757/"  target="_blank">&bull;  «Расстрельный дом» (23 апреля)</a></p>
+		<p><a href="http://lenta.ru/news/2012/02/29/rasstrel/"  target="_blank">&bull;  «Расстрельный дом» признали памятником культурного наследия (1 марта)</a></p>
+		<p><a href="http://www.novayagazeta.ru/apps/gulag/55818.html"  target="_blank">&bull;  Разыскивается! (10 декабря)</a></p>
+		<p><a href="http://echo.msk.ru/programs/museum/963198-echo/"  target="_blank">&bull;  Расстрельный дом и Бутырская тюрьма как музеи истории политических репрессий (8 декабря)</a></p>
+		<p><a href="http://riarealty.ru/architecture_heritage/20121203/399000172.html"  target="_blank">&bull;  ОП РФ попросит власти Москвы установить собственника «Расстрельного дома»(3 декабря)</a></p>
+		<p><a href="http://riarealty.ru/architecture_heritage/20120224/397301199.html"  target="_blank">&bull;  «Расстрельный» дом в Москве может получить статус памятника архитектуры (24 февраля)</a></p>
+        <br>
+		<h2 style="color: #ffffff; text-align: left;">2011</h2>
+		<p><a href="http://www.aif.ru/society/history/23669"  target="_blank">&bull;  Расстрельный дом. В настоящее время он сам оказался под прицелом (23 февраля)</a></p>
+<br><br><br>
+	    </div> <!--.story-->
+	</div> <!--#bk08-->
+
+     <!--Салатовый блок-->
+	<div id="bk09" class="slide">
+		<div class="story">
+<br><br><br>
+<h1 id="doith1">Я ГОТОВ ПОМОЧЬ</h1>
+		<h3 >Направить обращение мэру Москвы с выражением своего<br> пожелания о музеефикации &laquo;Расстрельного дома&raquo;<br> можно несколькими способами</h3>
+<div >
+		<div class="row" style="line-height: 1.4em;">
+           <div class="4u">
+				<article  id="hp" class="style2">
+                   <a href="images/Образец обращения.pdf"  target="_blank" style="text-decoration: none;"> <img  class="help01" src="css/images/help01.svg"></a>
+					<div>Отправить почтой или<br>отнести по адресу<br>Правительства Москвы:<br>125032, Москва,<br>ул. Тверская, д. 13<br />
+			<b style="color: #000000;"> <a href="images/Образец обращения.pdf"  target="_blank" style="text-decoration: none;">Образец обращения</a></b></div>
+				</article>
+			</div>
+			<div class="4u">
+				<article id="hp"  class="style2">
+                    <a href="https://www.mos.ru/feedback/individual/"  target="_blank"><img  class="help02" src="css/images/help02.svg"></a>
+					<div><b style="color: #000000;"><a href="https://www.mos.ru/feedback/individual/"  target="_blank" style="text-decoration: none;">Отправить</a></b> через<br>электронную<br>приемную</div>
+				</article>
+			</div>
+			<div class="4u">
+				<article id="hp" class="style2">
+                    <img  class="help03" src="css/images/help03.svg">
+					<div>Подписать<br>электронную<br>петицию</div>
+				</article>
+			</div>
+ 
+         </div><!--row-->
+<br><br><br>
+	    </div> <!--.story-->
+	</div> <!--#bk09-->
+
+	<div id="bk10" class="slide">
+
+		<div class="story">
+             
+	    </div> <!--.story-->
+	</div> <!--#bk10-->				
+				<!-- page footer -->
+				<div class="footer">
+					
+				</div>
+			</section>
+		</article>
+	</div>
+
+<!-- include the footer template -->
+
+	<!-- site footer -->
+	 <footer class="clearfix" >
+		
+				
+		<!-- 
+			Theme Credits
+			Please consider keeping the links to the developer and GetSimple if you use this theme
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter26831667 = new Ya.Metrika({
+                    id:26831667,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+ 
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js ";
+ 
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+
+<!-- /Yandex.Metrika counter -->
+		
+	 	
+	 </footer>
+	 
+</body>
+</html>
